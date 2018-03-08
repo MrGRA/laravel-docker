@@ -1,5 +1,5 @@
 
-# Laravel Docker Enviroment
+# Laravel Docker Environment
 
 * No Mamp or similar programs
 * No Vagrant or similar VM setups
