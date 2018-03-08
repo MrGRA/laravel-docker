@@ -6,9 +6,19 @@
 * No Globally installed PHP
 * No Globally installed Composer
 
+
+## Clone it
+
+```
+git clone https://github.com/laravel-docker
+cd laravel-docker
+```
+
 ## Step 1 — grab the latest Laravel release
 
-``git clone https://github.com/laravel/laravel.git app``
+```
+git clone https://github.com/laravel/laravel.git app
+```
 
 Wipe the .git directory.
 ```
@@ -36,7 +46,7 @@ APP_NAME=Dashboard
 APP_ENV=local
 APP_KEY=
 APP_DEBUG=true
-APP_URL=http://vps...
+APP_URL=http://localhost or domain
 
 LOG_CHANNEL=stack
 
@@ -101,5 +111,3 @@ For the full list:
 ``docker-compose exec app php artisan``
 
 All set - Have fun
-
-
