@@ -14,17 +14,20 @@ git clone https://github.com/laravel-docker
 cd laravel-docker
 ```
 
-## Step 1 — grab the latest Laravel release
+## Step 1 — grab the latest Laravel release or your project
 
-```
-git clone https://github.com/laravel/laravel.git app
-```
+``git clone https://github.com/laravel/laravel.git app``
 
 Wipe the .git directory.
 ```
 cd app
 rm -rf .git
 ```
+
+or 
+
+``git clone <ypur project> app``
+
 
 ## Step 2 — Install dependencies
 
