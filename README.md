@@ -10,7 +10,7 @@
 ## Clone it
 
 ```
-git clone https://github.com/laravel-docker
+git clone https://github.com/MrGRA/laravel-docker.git
 cd laravel-docker
 ```
 
