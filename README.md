@@ -26,8 +26,10 @@ rm -rf .git
 
 or 
 
-``git clone <ypur project> app``
-
+```
+git clone <ypur project> app
+cd app
+```
 
 ## Step 2 — Install dependencies
 
@@ -112,5 +114,12 @@ docker-compose exec app php artisan make:controller MyController
 For the full list:
 
 ``docker-compose exec app php artisan``
+
+## Bonus
+
+To remove all Docker images from your computer run:
+
+``./bin/clean/sh``
+
 
 All set - Have fun
