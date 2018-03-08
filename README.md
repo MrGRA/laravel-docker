@@ -122,6 +122,7 @@ To remove all Docker images from your computer run:
 ``./bin/clean/sh``
 
 To stop all the machines:
+
 ``docker-compose stop``
 
 
