@@ -29,7 +29,7 @@ rm -rf .git
 ## Step 2 — Install dependencies
 
 ```
-docker run --rm -v $(pwd):/app composer/composer install
+docker run --rm -v $(pwd):/app composer install
 ```
 
 * We use the --rm flag to ensure this container does not linger around following the install.
