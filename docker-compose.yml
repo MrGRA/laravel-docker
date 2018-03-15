@@ -16,7 +16,8 @@ services:
       - redis
 
   app:
-    image: php:7.2-fpm-alpine
+    # image: php:7.2-fpm-alpine
+    build: ./conf/php
     container_name: da-php
     working_dir: /app
     volumes:
