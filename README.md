@@ -91,7 +91,7 @@ MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
 ## Step 4 — Run It
 ```
 cd ..
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 The very first time you run this, it’s going to take minutes to start as it will need to download the images for all 3 services. Subsequent start times will be in the region of a second or 2, so don’t be put off by that initial download time.
