@@ -34,7 +34,7 @@ cd app
 ## Step 2 — Install dependencies
 
 ```
-docker run --rm -v $(pwd):/app composer install
+docker run --rm -v $(pwd):/app composer install --ignore-platform-reqs --no-scripts
 ```
 
 * We use the --rm flag to ensure this container does not linger around following the install.
